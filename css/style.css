@@ -483,6 +483,13 @@ h3.my-profession
     flex: 0 0 40%;
     max-width: 40%;
 }
+.about .about-content .skill-container h3
+{
+    font-size: 24px;
+    margin-top: 15px;
+    font-weight: 700;
+    color: var(--text-black-900);   
+}
 .about .about-content .skill-container .skill-buttons
 {
     position: relative;
@@ -491,7 +498,7 @@ h3.my-profession
 }
 .about .about-content .skill-container .skill-buttons .skill-btn
 {
-    margin-top: 50px;
+    margin-top: 16px;
     font-size: 16px;
     font-weight: 500;
     padding: 12px 25px;
