@@ -16,17 +16,9 @@ const App: React.FC = () => {
         <div className='main content'>
           <Routes>
             <Route path="/" element={<Home/>} />
-          </Routes>
-          <Routes>
-            <Route path="/about" element={<About/>} />
-          </Routes>
-          <Routes>
-            <Route path="/skills" element={<Services/>} />
-          </Routes>
-          <Routes>
+            <Route path="/about" element={<About/>} />       
+            <Route path="/skills" element={<Services/>} />         
             <Route path="/contact" element={<Contact/>} />
-          </Routes>
-          <Routes>
             <Route path="/portfolio" element={<Portfolio/>} />
           </Routes>
         </div>
